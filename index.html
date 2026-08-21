@@ -11,7 +11,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./images/favicon.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.PNG" type="image/x-icon" />
   </head>
   <body>
     <!-- signup -->
@@ -62,8 +62,7 @@
                               type="text"
                               id="form3Example1n"
                               class="form-control form-control-lg"
-                             name="lastname"
-
+                              name="lastname"
                             />
                             <label class="form-label" for="form3Example1n"
                               >Last name</label
@@ -105,9 +104,9 @@
                           <input
                             class="form-check-input"
                             type="radio"
-                            name="female"
+                            name="gender"
                             id="femaleGender"
-                            value="option1"
+                            value="Female"
                           />
                           <label class="form-check-label" for="femaleGender"
                             >Female</label
@@ -118,9 +117,9 @@
                           <input
                             class="form-check-input"
                             type="radio"
-                            name="male"
+                            name="gender"
                             id="maleGender"
-                            value="option2"
+                            value="Male"
                           />
                           <label class="form-check-label" for="maleGender"
                             >Male</label
@@ -131,9 +130,9 @@
                           <input
                             class="form-check-input"
                             type="radio"
-                            name="other"
+                            name="gender"
                             id="otherGender"
-                            value="option3"
+                            value="Other"
                           />
                           <label class="form-check-label" for="otherGender"
                             >Other</label
@@ -143,12 +142,13 @@
 
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <select data-mdb-select-init>
+                          <select data-mdb-select-init name="cities">
                             <option value="1">City</option>
                             <option value="2">Karachi</option>
                             <option value="3">Lahore</option>
                             <option value="4">Islamabad</option>
                           </select>
+                          <label class="d-block">Select your city</label>
                         </div>
                       </div>
 
@@ -157,7 +157,7 @@
                           type="text"
                           id="form3Example9"
                           class="form-control form-control-lg"
-                          name="DOB"
+                          name="dob"
                         />
                         <label class="form-label" for="form3Example9"
                           >DOB</label
@@ -176,16 +176,26 @@
                         >
                       </div>
 
-
                       <div data-mdb-input-init class="form-outline mb-4">
                         <input
                           type="text"
                           id="form3Example97"
                           class="form-control form-control-lg"
-                          name="email"
+                          name="emailaddress"
                         />
                         <label class="form-label" for="form3Example97"
                           >Email ID</label
+                        >
+                      </div>
+                      <div data-mdb-input-init class="form-outline mb-4">
+                        <input
+                          type="text"
+                          id="form3Example97"
+                          class="form-control form-control-lg"
+                          name="password"
+                        />
+                        <label class="form-label" for="form3Example97"
+                          >Password</label
                         >
                       </div>
 
